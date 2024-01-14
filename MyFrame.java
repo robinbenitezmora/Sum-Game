@@ -5,12 +5,11 @@ import javax.swing.JPanel;
 public class MyFrame extends JFrame {
  public MyFrame() {
   super("My Frame");
-  setSize(400, 300);
-  setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   JPanel panel = new JPanel();
-  JLabel label = new JLabel("Hello World");
+  JLabel label = new JLabel("Hello, world!");
   panel.add(label);
   add(panel);
+  pack();
   setVisible(true);
  }
 }
