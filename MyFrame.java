@@ -8,7 +8,7 @@ public class MyFrame extends JFrame {
   setSize(400, 300);
   setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   JPanel panel = new JPanel();
-  JLabel label = new JLabel();
+  JLabel label = new JLabel("Hello World");
   panel.add(label);
   add(panel);
   setVisible(true);
